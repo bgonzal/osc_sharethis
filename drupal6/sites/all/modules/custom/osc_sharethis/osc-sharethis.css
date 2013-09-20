@@ -1,0 +1,39 @@
+#sharethis-main-items{
+    padding: 2px 0 10px 0;    
+}
+
+.st_sharethis_custom{
+    background: url("images/share.gif");
+    background-repeat: no-repeat;
+    padding:0px 85px 5px 0;
+
+}
+
+
+.st_facebook_custom{
+    background: url("images/facebook.gif");
+    background-repeat: no-repeat;
+    padding:0px 67px 10px 0;
+
+}
+
+.st_twitter_custom{
+    background: url("images/twitter.gif");
+    background-repeat: no-repeat;
+    padding:0px 74px 10px 0;
+
+}
+
+.st_linkedin_custom{
+    background: url("images/inshare.gif") no-repeat scroll left top transparent; 
+    padding:0px 76px 10px 0;
+    
+
+}
+
+.st_email_custom{
+    background: url("images/mail.gif");
+    background-repeat: no-repeat;
+    padding:0px 74px 10px 0;
+
+}

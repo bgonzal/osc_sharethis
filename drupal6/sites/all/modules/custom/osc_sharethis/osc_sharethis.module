@@ -1,0 +1,27 @@
+<?php
+
+function osc_sharethis_theme() {
+  $theme = array(
+      'sharethis_sharecode' => array(
+          'arguments' => array(),
+          'path' => drupal_get_path("module", "osc_sharethis"),
+          'template' => 'sharethis-sharecode',
+      ),
+  );
+  return $theme;
+}
+
+
+function osc_sharethis_init(){
+  drupal_set_html_head('<script type="text/javascript">var switchTo5x=true;</script>');
+  drupal_set_html_head('<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>');
+  drupal_set_html_head('<script type="text/javascript">
+    stLight.options({publisher: "6162582a-cb2e-4dfe-a38a-bef71017b714",
+    onhover: true,
+    doNotHash: false,
+    doNotCopy: false, 
+    hashAddressBar: false});</script>');
+  drupal_add_css(drupal_get_path('module', 'osc_sharethis') . '/osc-sharethis.css');
+}
+
+
